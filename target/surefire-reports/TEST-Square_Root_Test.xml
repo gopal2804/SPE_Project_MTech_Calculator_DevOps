@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/gopal/Desktop/Semester_2/SPE/MiniProject/Calculator_DevOps/target/surefire/surefirebooter-20230314182524397_3.jar /home/gopal/Desktop/Semester_2/SPE/MiniProject/Calculator_DevOps/target/surefire 2023-03-14T18-25-24_253-jvmRun1 surefire-20230314182524397_1tmp surefire_0-20230314182524397_2tmp"/>
+    <property name="sun.java.command" value="/home/gopal/Desktop/Semester_2/SPE/MiniProject/Calculator_DevOps/target/surefire/surefirebooter-20230314220340948_3.jar /home/gopal/Desktop/Semester_2/SPE/MiniProject/Calculator_DevOps/target/surefire 2023-03-14T22-03-40_771-jvmRun1 surefire-20230314220340948_1tmp surefire_0-20230314220340948_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/gopal/Desktop/Semester_2/SPE/MiniProject/Calculator_DevOps/target/test-classes:/home/gopal/Desktop/Semester_2/SPE/MiniProject/Calculator_DevOps/target/classes:/home/gopal/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/gopal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/gopal/Desktop/Semester_2/SPE/MiniProject/Calculator_DevOps/target/surefire/surefirebooter-20230314182524397_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/gopal/Desktop/Semester_2/SPE/MiniProject/Calculator_DevOps/target/surefire/surefirebooter-20230314220340948_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.18+10-post-Ubuntu-0ubuntu120.04.1"/>
     <property name="user.name" value="gopal"/>
@@ -64,7 +64,7 @@ starting square root test
 test 2) square root -ve
 ]]></system-out>
   </testcase>
-  <testcase name="positive_float" classname="Square_Root_Test" time="0.001">
+  <testcase name="positive_float" classname="Square_Root_Test" time="0">
     <system-out><![CDATA[test 1) square root +ve
 ]]></system-out>
   </testcase>
