@@ -1,90 +1,82 @@
-import java.lang.Math;
 import java.util.Scanner;
+
 public class Calculator {
 
-    float ans;
-    float x, y;
-    public float square_root(float x){
-        if(x < 0){
-            return -1f;
-        }
-        double temp = Math.sqrt(x);
-        return (float) temp;
-    }
 
-    public int factorial(int x){
-        if(x < 0){
-            return -1;
-        }
-        int ans = 1;
-        for(int i = 1; i <= x; i++){
-            ans = ans * i;
-        }
-        return ans;
+    public static double squareroot(double x){
+        double result = Math.sqrt(x);
+        return result;
     }
-
-    public float nat_log(float x){
-        if(x < 0){
-            return -1;
+    public static long factorial(int num){
+        long fact = 1;
+        for (int i = 1; i <= num; i++) {
+            fact *= i;
         }
-        float temp = (float) Math.log(x);
-        return temp;
+        return fact;
     }
-
-    public float power(float x, float y){
-        float temp = (float) Math.pow(x,y);
-        return temp;
+    public static double log(double x){
+        double anslog = Math.log(x);
+        return anslog;
     }
-
-    public float evaluate(int op, float x, float y){
-        switch(op)
-        {
-            case(1):
-                ans = square_root(x);
-                break;
-            case(2):
-                ans = factorial((int)x);
-                break;
-            case(3):
-                ans = nat_log(x);
-                break;
-            case(4):
-                ans = power(x,y);
-                break;
-            default:
-                System.out.println("wrong option selected");
-                break;
-        }
-        return ans;
+    public static double twopower(double num,double expo){
+        double power = Math.pow(num, expo);
+        return power;
     }
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
+        System.out.println("Welcome to the calculator program!");
 
+        while (true) {
+            System.out.println("\nPlease select an operation :");
+            System.out.println("1. Square root function");
+            System.out.println("2. Factorial function");
+            System.out.println("3. Natural logarithm (base e)");
+            System.out.println("4. Power function");
+            System.out.println("5. Quit");
 
-        System.out.print("Choose operation \n"+
-                "1. Square Root \n"+
-                "2. Factorial  \n"+
-                "3. Natural Log  \n"+
-                "4. Power  \n"+
-                "Enter your choice : ");
+            System.out.print("Enter your choice: ");
+            int choice = input.nextInt();
 
-        int op = scan.nextInt();
-        float x = 0;
-        float y = 0;
+            switch (choice) {
+                case 1:
+                    System.out.print("Enter a number to find its square root: ");
+                    double x = input.nextDouble();
+                    double result=squareroot(x);
+                    System.out.printf("The square root of %.2f is %.2f%n", x, result);
+                    break;
 
-        if (op == 1 || op == 2 || op == 3 ){
-            System.out.print("Enter operand x: ");
-            x = scan.nextFloat();
+                case 2:
+                    System.out.print("Enter a non-negative integer to find its factorial: ");
+                    int n = input.nextInt();
+                    long fact=factorial(n);
+                    System.out.printf("The factorial of %d is %d%n", n, fact);
+                    break;
+
+                case 3:
+                    System.out.print("Enter a positive number to find its natural logarithm: ");
+                    double num = input.nextDouble();
+                    double ans=log(num);
+                    System.out.printf("The natural logarithm of %.2f is %.2f%n", num, ans);
+                    break;
+
+                case 4:
+                    System.out.print("Enter a number and its exponent to find its power: ");
+                    double base = input.nextDouble();
+                    double exponent = input.nextDouble();
+                    double anspower=twopower(base,exponent);
+                    System.out.printf("%.2f raised to the power of %.2f is %.2f%n", base, exponent, anspower);
+                    break;
+
+                case 5:
+                    System.out.println("Thank you for using the calculator program!");
+                    input.close();
+                    return;
+
+                default:
+                    System.out.println("Invalid choice, please try again.");
+                    break;
+            }
         }
-        else if (op == 4 ){
-            System.out.print("Enter operands x y: ");
-            x = scan.nextFloat();
-            y = scan.nextFloat();
-        }
-
-        Calculator mycalc = new Calculator();
-        System.out.println("Your Answer: " +  mycalc.evaluate(op, x, y));
-
     }
 }
