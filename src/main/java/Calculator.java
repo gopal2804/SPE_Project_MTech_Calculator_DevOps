@@ -4,10 +4,16 @@ public class Calculator {
 
 
     public static double squareroot(double x){
+        if(x<0){
+            return -1;
+        }
         double result = Math.sqrt(x);
         return result;
     }
     public static long factorial(int num){
+        if(num<0){
+            return -1;
+        }
         long fact = 1;
         for (int i = 1; i <= num; i++) {
             fact *= i;
@@ -15,6 +21,9 @@ public class Calculator {
         return fact;
     }
     public static double log(double x){
+        if(x<0){
+            return -1;
+        }
         double anslog = Math.log(x);
         return anslog;
     }

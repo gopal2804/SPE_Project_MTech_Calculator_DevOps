@@ -15,15 +15,15 @@ public class Square_Root_Test {
 
     @Test
     public void positive_float() {
-        Calculator mycalc = new Calculator();
+        //Calculator mycalc = new Calculator();
         System.out.println("test 1) square root +ve");
-        assertEquals("square root 25 not working correctly",5,mycalc.square_root(25),0.00001);
+        assertEquals("square root 25 not working correctly",5,Calculator.squareroot(25),0.00001);
     }
 
     @Test
     public void negative_float() {
-        Calculator mycalc = new Calculator();
+        //Calculator mycalc = new Calculator();
         System.out.println("test 2) square root -ve");
-        assertEquals("square root -6 not working correctly",-1,mycalc.square_root(-6),0.00001);
+        assertEquals("square root -5 not working correctly",-1,Calculator.squareroot(-6),0.00001);
     }
 }

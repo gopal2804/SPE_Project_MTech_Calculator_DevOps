@@ -1,5 +1,4 @@
 
-
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -17,15 +16,15 @@ public class Factorial_Test {
 
     @Test
     public void positive_float() {
-        Calculator mycalc = new Calculator();
+        // Calculator calculator = new Calculator();
         System.out.println("test 1) factorial +ve");
-        assertEquals("factorial 5 not working correctly",120,mycalc.factorial(5),0.00001);
+        assertEquals("factorial 5 not working correctly",120,Calculator.factorial(5),0.00001);
     }
 
     @Test
     public void negative_float() {
-        Calculator mycalc = new Calculator();
+        //Calculator calculator = new Calculator();
         System.out.println("test 2) factorial -ve");
-        assertEquals("factorial -5 not working correctly",-1,mycalc.factorial(-6),0.00001);
+        assertEquals("factorial -5 not working correctly",-1,Calculator.factorial(-5),0.00001);
     }
 }
