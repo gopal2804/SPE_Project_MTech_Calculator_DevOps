@@ -37,7 +37,7 @@ public class Calculator {
         System.out.println("Welcome to the calculator program!");
 
         while (true) {
-            System.out.println("\nSelect an operation :");
+            System.out.println("\nselect an operation :");
             System.out.println("1. Square root function");
             System.out.println("2. Factorial function");
             System.out.println("3. Natural logarithm (base e)");
