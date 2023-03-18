@@ -3,6 +3,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class Calculator {
+    //object creation
     private static final Logger logger = LogManager.getLogger(Calculator.class);
     public Calculator() {
     }
@@ -10,8 +11,10 @@ public class Calculator {
     public static double squareroot(double x){
         if(x<0)
             return -1;
+        //before function run - logs
         logger.info("[SQUARE ROOT] - " + x);
         double result = Math.sqrt(x);
+        //after function run -- logs
         logger.info("[RESULT - SQUARE ROOT] - " + result);
         return result;
     }
