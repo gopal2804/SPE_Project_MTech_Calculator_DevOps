@@ -48,6 +48,13 @@ public class Calculator {
         return power;
     }
 
+    public static double Addition(double x1,double x2){
+        logger.info("[Addition] - "+x1+"AND "+x2);
+        double ans=x1+x2;
+        logger.info("[RESULT] - "+ans);
+        return ans;
+    }
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to the calculator program!");
@@ -58,7 +65,8 @@ public class Calculator {
             System.out.println("2. Factorial function");
             System.out.println("3. Natural logarithm (base e)");
             System.out.println("4. Power function");
-            System.out.println("5. Quit");
+            System.out.println("5. Addition funtion");
+            System.out.println("6. Quit");
 
             System.out.print("Enter your choice: ");
             int choice = input.nextInt();
@@ -94,6 +102,14 @@ public class Calculator {
                     break;
 
                 case 5:
+                    System.out.println("Enter two numbers for addition: ");
+                    double x1=input.nextDouble();
+                    double x2=input.nextDouble();
+                    double answer=Addition(x1,x2);
+                    System.out.printf("%.2f added to %.2f is %.2f%n", x1, x2, answer);
+                    break;
+
+                case 6:
                     System.out.println("Thank you for using the calculator program!");
                     input.close();
                     return;
