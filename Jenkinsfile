@@ -7,7 +7,7 @@ pipeline {
 	agent any
 
     stages {
-        stage('Git Pull') {
+        stage('Git pull') {
             steps {
                 // Get code from a GitHub repository
                 // Make sure to add your own git url and credentialsId
@@ -47,9 +47,5 @@ pipeline {
 
     }
 
-    post {
-        always {
-            sh 'docker logout'
-        }
-    }
+    
 }
