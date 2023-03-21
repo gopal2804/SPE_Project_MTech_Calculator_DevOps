@@ -57,6 +57,7 @@ public class Calculator {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        input.nextLine();
         System.out.println("Welcome to the calculator program!");
 
         while (true) {
@@ -111,8 +112,6 @@ public class Calculator {
 
                 case 6:
                     System.out.println("Thank you for using the calculator program!");
-                    System.out.println("--------------------------------------------");
-                    System.out.println("----------------------------------------------");
                     System.out.println("--------------------------------------------");
                     input.close();
                     return;
