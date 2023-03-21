@@ -10,5 +10,8 @@
     - name: pull docker image
       shell: docker pull gopal2804/calculator_project
 
-    - name: running container
-      shell: docker run -it -d gopal2804/calculator_project
+#    - name: running container
+#      shell: docker run -it -d gopal2804/calculator_project
+    - name: create container using pulled image
+      shell:
+          docker stop calc&&docker rm calc&&docker run -itd -v ${PWD}/logs:/logs --name calc gopal2804/calculator_project:1.0&&gnome-terminal -- bash -c "docker attach calc; exec bash"
