@@ -7,7 +7,7 @@ pipeline {
 	agent any
 
     stages {
-        stage('Git pull') {
+        stage('Git Pull') {
             steps {
                 // Get code from a GitHub repository
                 // Make sure to add your own git url and credentialsId
