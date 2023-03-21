@@ -66,7 +66,7 @@ public class Calculator {
             System.out.println("2. Factorial function");
             System.out.println("3. Natural logarithm (base e)");
             System.out.println("4. Power function");
-            System.out.println("5. Addition funtion");
+            System.out.println("5. Addition function");
             System.out.println("6. Quit");
 
             System.out.print("Enter your choice: ");
