@@ -2,6 +2,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.Scanner;
+
 //import org.apache.logging.log4j.LogManager;
 //import org.apache.logging.log4j.Logger;
 
@@ -112,6 +113,7 @@ public class Calculator {
 
                 case 6:
                     System.out.println("Thank you for using the calculator program!");
+                    System.out.println("--------------------------------------------");
                     System.out.println("--------------------------------------------");
                     input.close();
                     return;

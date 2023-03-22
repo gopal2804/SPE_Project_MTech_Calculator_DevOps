@@ -104,3 +104,39 @@
 2023-03-18 17:16:32.112 [main] INFO  Calculator - [RESULT - LOG] - 2.302585092994046
 2023-03-18 17:16:32.116 [main] INFO  Calculator - [SQUARE ROOT] - 25.0
 2023-03-18 17:16:32.116 [main] INFO  Calculator - [RESULT - SQUARE ROOT] - 5.0
+2023-03-21 22:13:07.562 [main] INFO  Calculator - [TWOPOWER] - 2.0AND3.0
+2023-03-21 22:13:07.563 [main] INFO  Calculator - [RESULT - TWOPOWER] - 8.0
+2023-03-21 22:13:07.564 [main] INFO  Calculator - [TWOPOWER] - -2.0AND3.0
+2023-03-21 22:13:07.564 [main] INFO  Calculator - [RESULT - TWOPOWER] - -8.0
+2023-03-21 22:13:07.565 [main] INFO  Calculator - [TWOPOWER] - -0.5AND-3.0
+2023-03-21 22:13:07.565 [main] INFO  Calculator - [RESULT - TWOPOWER] - -8.0
+2023-03-21 22:13:07.568 [main] INFO  Calculator - [FACTORIAL] - 5
+2023-03-21 22:13:07.569 [main] INFO  Calculator - [RESULT - FACTORIAL] - 120
+2023-03-21 22:13:07.574 [main] INFO  Calculator - [LOG] - 10.0
+2023-03-21 22:13:07.574 [main] INFO  Calculator - [RESULT - LOG] - 2.302585092994046
+2023-03-21 22:13:07.578 [main] INFO  Calculator - [SQUARE ROOT] - 25.0
+2023-03-21 22:13:07.578 [main] INFO  Calculator - [RESULT - SQUARE ROOT] - 5.0
+2023-03-21 22:27:29.888 [main] INFO  Calculator - [TWOPOWER] - 2.0AND3.0
+2023-03-21 22:27:29.890 [main] INFO  Calculator - [RESULT - TWOPOWER] - 8.0
+2023-03-21 22:27:29.890 [main] INFO  Calculator - [TWOPOWER] - -2.0AND3.0
+2023-03-21 22:27:29.891 [main] INFO  Calculator - [RESULT - TWOPOWER] - -8.0
+2023-03-21 22:27:29.891 [main] INFO  Calculator - [TWOPOWER] - -0.5AND-3.0
+2023-03-21 22:27:29.892 [main] INFO  Calculator - [RESULT - TWOPOWER] - -8.0
+2023-03-21 22:27:29.896 [main] INFO  Calculator - [FACTORIAL] - 5
+2023-03-21 22:27:29.896 [main] INFO  Calculator - [RESULT - FACTORIAL] - 120
+2023-03-21 22:27:29.901 [main] INFO  Calculator - [LOG] - 10.0
+2023-03-21 22:27:29.901 [main] INFO  Calculator - [RESULT - LOG] - 2.302585092994046
+2023-03-21 22:27:29.906 [main] INFO  Calculator - [SQUARE ROOT] - 25.0
+2023-03-21 22:27:29.906 [main] INFO  Calculator - [RESULT - SQUARE ROOT] - 5.0
+2023-03-21 22:28:13.680 [main] INFO  Calculator - [TWOPOWER] - 2.0AND3.0
+2023-03-21 22:28:13.682 [main] INFO  Calculator - [RESULT - TWOPOWER] - 8.0
+2023-03-21 22:28:13.683 [main] INFO  Calculator - [TWOPOWER] - -2.0AND3.0
+2023-03-21 22:28:13.683 [main] INFO  Calculator - [RESULT - TWOPOWER] - -8.0
+2023-03-21 22:28:13.683 [main] INFO  Calculator - [TWOPOWER] - -0.5AND-3.0
+2023-03-21 22:28:13.683 [main] INFO  Calculator - [RESULT - TWOPOWER] - -8.0
+2023-03-21 22:28:13.688 [main] INFO  Calculator - [FACTORIAL] - 5
+2023-03-21 22:28:13.688 [main] INFO  Calculator - [RESULT - FACTORIAL] - 120
+2023-03-21 22:28:13.692 [main] INFO  Calculator - [LOG] - 10.0
+2023-03-21 22:28:13.692 [main] INFO  Calculator - [RESULT - LOG] - 2.302585092994046
+2023-03-21 22:28:13.696 [main] INFO  Calculator - [SQUARE ROOT] - 25.0
+2023-03-21 22:28:13.696 [main] INFO  Calculator - [RESULT - SQUARE ROOT] - 5.0
