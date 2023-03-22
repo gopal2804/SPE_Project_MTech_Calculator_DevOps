@@ -115,7 +115,6 @@ public class Calculator {
                     System.out.println("Thank you for using the calculator program!");
                     System.out.println("--------------------------------------------");
                     System.out.println("--------------------------------------------");
-                    System.out.println("--------------------------------------------");
                     input.close();
                     return;
 
