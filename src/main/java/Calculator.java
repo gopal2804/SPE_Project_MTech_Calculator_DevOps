@@ -16,8 +16,10 @@ public class Calculator {
     public static double squareroot(double x){
         //before function run - logs
         logger.info("[SQUARE ROOT] - " + x);
-        if(x<0)
+        if(x<0) {
+            logger.info("Error - Invalid input");
             return -1;
+        }
         double result = Math.sqrt(x);
         //after function run -- logs
         logger.info("[RESULT - SQUARE ROOT] - " + result);
@@ -26,10 +28,14 @@ public class Calculator {
     public static long factorial(int x){
 
         logger.info("[FACTORIAL] - " + x);
-        if(x<0)
+        if(x<0) {
+            logger.info("Error - Invalid input");
             return -1;
-        if(x>=20)
+        }
+        if(x>=20) {
+            logger.info("Error - Invalid input");
             return 0;
+        }
         long fact = 1;
         for (int i = 1; i <= x; i++) {
             fact *= i;
@@ -40,10 +46,14 @@ public class Calculator {
     public static double log(double x){
 
         logger.info("[LOG] - " + x);
-        if(x<0)
+        if(x<0) {
+            logger.info("Error - Invalid input");
             return -1;
-        if(x==0)
+        }
+        if(x==0) {
+            logger.info("Error - Invalid input");
             return 0;
+        }
         double anslog = Math.log(x);
         logger.info("[RESULT - LOG] - " + anslog);
         return anslog;
