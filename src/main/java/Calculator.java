@@ -28,6 +28,8 @@ public class Calculator {
         logger.info("[FACTORIAL] - " + x);
         if(x<0)
             return -1;
+        if(x>=20)
+            return 0;
         long fact = 1;
         for (int i = 1; i <= x; i++) {
             fact *= i;
@@ -95,6 +97,10 @@ public class Calculator {
                     long fact=factorial(n);
                     if(fact==-1){
                         System.out.println("A number can not be negative");
+                        break;
+                    }
+                    if(fact==0){
+                        System.out.println("PLease enter a number less than 20");
                         break;
                     }
                     System.out.printf("The factorial of %d is %d%n", n, fact);
