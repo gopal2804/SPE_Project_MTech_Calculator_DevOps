@@ -1,9 +1,9 @@
 
 pipeline {
-    // The “agent” section configures on which nodes the pipeline can be run.
-    // Specifying “agent any” means that Jenkins will run the job on any of the
-    // available nodes.
-
+	//agent any is a directive in a Jenkins pipeline that specifies where the pipeline will be executed. 
+	//In this case, it is set to "any", which means that the pipeline can be executed on any available agent or node. 
+	//The agent or node is the environment where the pipeline will run, and it can be a physical machine, a virtual machine, or a container. 
+	//By setting agent any, the pipeline can run on any available agent that meets the specified requirements for the pipeline.
 	agent any
 
     stages {
