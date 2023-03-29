@@ -37,6 +37,7 @@ public class Calculator {
             logger.info("Error - Invalid input");
             return 0;
         }
+
         long fact = 1;
         for (int i = 1; i <= x; i++) {
             fact *= i;
