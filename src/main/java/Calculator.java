@@ -25,6 +25,7 @@ public class Calculator {
         logger.info("[RESULT - SQUARE ROOT] - " + result);
         return result;
     }
+
     public static long factorial(int x){
 
         logger.info("[FACTORIAL] - " + x);
