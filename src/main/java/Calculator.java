@@ -90,7 +90,7 @@ public class Calculator {
             System.out.println("6. Quit");
 
             System.out.print("Enter your choice: ");
-            int choice = input.nextInt();
+            int choice = input.nextInt();====
 
             switch (choice) {
                 case 1:
